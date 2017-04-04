@@ -8,13 +8,15 @@ echo "Submission: Thomas Herr (200325519)";
 
 echo "3)";
 
-zip -r out/tmp3archive.zip "$HOME/tmp";
+zip -r "../out/tmp3archive.zip" "$HOME/tmp";
 
-unzip -l out/tmp3archive.zip;
+unzip -l "../out/tmp3archive.zip";
 
+if [ ! -d $HOME/tmp4 ]; then
 mkdir "$HOME/tmp4";
+fi
 
-unzip out/tmp3archive.zip c -d "$HOME/tmp4";
+unzip "../out/tmp3archive.zip" -d "$HOME/tmp4" home/tom/tmp/c/*;
 
-la -laR "$HOME/tmp4";
+ls -laR "$HOME/tmp4";
 

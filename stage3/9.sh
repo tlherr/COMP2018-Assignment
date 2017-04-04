@@ -8,10 +8,11 @@ echo "Submission: Thomas Herr (200325519)";
 
 echo "9)";
 
-toBuild=(0,1,2,3,4,5);
+toBuild=(0 1 2 3 4 5);
 
 for i in "${toBuild[@]}"
 do
-        touch $HOME/tmp/{$i};
+	echo "Creating ${HOME}/tmp/$i";
+        touch $HOME/tmp/$i;
 done
 

@@ -9,9 +9,9 @@ echo "Submission: Thomas Herr (200325519)";
 
 echo "5)";
 
-cal 2017 >> out/2017.txt;
+cal 2017 >> ../out/2017.txt;
 echo "Number of Lines in 2017.txt:";
-wc -l out/2017.txt;
+wc -l ../out/2017.txt;
 echo "Number of Blank Lines in 2017.txt";
-grep -cvP '\S' out/2017.txt;
+grep -cvP '\S' ../out/2017.txt;
 

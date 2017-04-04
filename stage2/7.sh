@@ -27,5 +27,5 @@ ls -d *[2,9]*;
 echo "Listing: first or last letter of your last name";
 ls -d *[h,r]*
 
-cd ../stage2;
+cd ../../stage2;
 

@@ -9,7 +9,7 @@ echo "Submission: Thomas Herr (200325519)";
 
 echo "7)";
 
-cat out/foods | sort -r;
+cat ../out/foods | sort -r;
 
 cat /etc/passwd | sort;
 

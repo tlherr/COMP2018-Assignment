@@ -9,7 +9,7 @@ echo "Submission: Thomas Herr (200325519)";
 
 echo "6)";
 
-cat >out/foods <<EOL
+cat >../out/foods <<EOL
 Bread
 Eggs 
 Cheese
@@ -17,5 +17,5 @@ Milk
 Eggs
 EOL
 
-cat out/foods | tr '[a-z]' '[A-Z]' >> out/FOODS
+cat ../out/foods | tr '[a-z]' '[A-Z]' >> ../out/FOODS
 

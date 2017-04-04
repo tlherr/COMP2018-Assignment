@@ -10,7 +10,9 @@ echo "4)";
 tail -n 5 /var/log/syslog;
 head /etc/services;
 
-if [ wc -l /etc/services -gt 20 ]; then
+serviceLines=$(cat /etc/services|wc -l);
+
+if [ "$serviceLines" -gt 20 ]; then
         cat /etc/services;
 fi
 

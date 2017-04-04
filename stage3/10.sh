@@ -9,9 +9,11 @@ echo "10)";
 echo "=======BEFORE=======";
 ls -la $HOME/tmp;
 
+toBuild=(0 1 2 3 4 5)
+
 for i in "${toBuild[@]}"
 do
-   rm -rf $HOME/tmp/{$i};
+   rm -rf $HOME/tmp/$i;
 done
 
 echo "=======AFTER=========";

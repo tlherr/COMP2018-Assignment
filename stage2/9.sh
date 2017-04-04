@@ -9,5 +9,5 @@ echo "Submission: Thomas Herr (200325519)";
 
 echo "9)";
 
-echo "${CAL=$(cal -m january 2017)}";
+echo "${january=$(cal -m january 2017)}";
 

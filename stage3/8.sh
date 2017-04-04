@@ -8,9 +8,10 @@ echo "Submission: Thomas Herr (200325519)";
 echo "8)";
 
 echo "=========BEFORE===========";
-ls -t $HOME/tmp;
-echo "=========TOUCHING=========";
+ls -ctl $HOME/tmp;
+
 touch $HOME/tmp/55;
+
 echo "=========AFTER============";
-ls -t $HOME/tmp;
+ls -ctl $HOME/tmp;
 

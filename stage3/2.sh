@@ -9,3 +9,4 @@ echo "Submission: Thomas Herr (200325519)";
 echo "2)";
 echo "It is illegal to end an RE with '\'.";
 
+man 7 regex | grep illegal

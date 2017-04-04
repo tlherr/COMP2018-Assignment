@@ -9,5 +9,5 @@ echo "5)";
 
 cd ../out/filetest;
 find . -name '?' -type f -exec rsync -Raq {} ~/tmp \;
-cd ../stage3;
+cd ../../stage3;
 
